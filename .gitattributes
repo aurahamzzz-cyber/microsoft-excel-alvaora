@@ -1,0 +1,16 @@
+# Language detection rules
+*.py linguist-detectable
+
+public/**/*.html linguist-vendored  
+
+*.jpeg binary
+*.json linguist-detectable=false
+node_modules/* linguist-vendored
+**/*.py linguist-detectable
+*.yaml linguist-detectable=false
+*.gif binary
+
+go.sum linguist-generated
+
+Cargo.lock linguist-generated
+# eof c4b626a5
